@@ -31,6 +31,7 @@ public class CorsConfig {
         
         // Allow specific headers
         config.addAllowedHeader("Content-Type");
+        //Authorization header
         config.addAllowedHeader("Authorization");
         config.addAllowedHeader("X-Requested-With");
         config.addAllowedHeader("Accept");
