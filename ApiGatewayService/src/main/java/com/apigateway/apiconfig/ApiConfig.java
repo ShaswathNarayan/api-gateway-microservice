@@ -23,7 +23,7 @@ public class ApiConfig {
         return builder.routes()
             // Route for Pharmaceutical Management System
             .route("PharmaceuticalManagementSystem", r -> r
-                .path("/pharmaceutical/**")
+                .path("/api-pharmaceutical/**")
                 .uri("http://localhost:8061"))
 
             // Route for Sales Service
