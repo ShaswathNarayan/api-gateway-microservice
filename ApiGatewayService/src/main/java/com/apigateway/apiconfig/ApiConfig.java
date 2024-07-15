@@ -28,7 +28,7 @@ public class ApiConfig {
 
             // Route for Sales Service
             .route("SalesService", r -> r
-                .path("/api-sales/**")
+                .path("/sales-api/**")
                 .uri("http://localhost:8071"))
             .build();
     }
